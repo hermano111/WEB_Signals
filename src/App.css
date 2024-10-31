@@ -1,0 +1,27 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+}
